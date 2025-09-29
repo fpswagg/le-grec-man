@@ -1,0 +1,130 @@
+{
+    "items": [
+        {
+            "id": "restaurant-1",
+            "title": "Salle principale",
+            "category": "restaurant",
+            "type": "image",
+            "src": "/elegant-greek-restaurant-interior-dark-warm-lighti.jpg",
+            "description": "Notre salle principale avec son ambiance chaleureuse et sophistiquée",
+            "featured": true
+        },
+        {
+            "id": "restaurant-2",
+            "title": "Bar à ouzo",
+            "category": "restaurant",
+            "type": "image",
+            "src": "/elegant-bar-with-greek-spirits-and-warm-lighting.jpg",
+            "description": "Notre bar spécialisé dans les spiritueux grecs authentiques"
+        },
+        {
+            "id": "restaurant-3",
+            "title": "Terrasse privée",
+            "category": "restaurant",
+            "type": "image",
+            "src": "/elegant-restaurant-terrace-with-mediterranean-deco.jpg",
+            "description": "Espace privé pour vos événements spéciaux"
+        },
+        {
+            "id": "restaurant-4",
+            "title": "Cuisine ouverte",
+            "category": "restaurant",
+            "type": "image",
+            "src": "/professional-greek-kitchen-with-chef-cooking.jpg",
+            "description": "Notre cuisine ouverte où naît la magie culinaire"
+        },
+        {
+            "id": "plat-1",
+            "title": "Moussaka Traditionnelle",
+            "category": "plats",
+            "type": "image",
+            "src": "/moussaka-traditional-greek-dish-golden-brown.jpg",
+            "description": "Notre moussaka signature, préparée selon la recette familiale",
+            "featured": true
+        },
+        {
+            "id": "plat-2",
+            "title": "Mezze Complet",
+            "category": "plats",
+            "type": "image",
+            "src": "/greek-mezze-platter-colorful-appetizers.jpg",
+            "description": "Assortiment de nos meilleures spécialités grecques",
+            "featured": true
+        },
+        {
+            "id": "plat-3",
+            "title": "Baklava Maison",
+            "category": "plats",
+            "type": "image",
+            "src": "/baklava-greek-dessert-honey-nuts-phyllo.jpg",
+            "description": "Dessert traditionnel aux noix et miel de thym"
+        },
+        {
+            "id": "plat-4",
+            "title": "Souvlaki d'Agneau",
+            "category": "plats",
+            "type": "image",
+            "src": "/greek-lamb-souvlaki-with-tzatziki-and-pita.jpg",
+            "description": "Brochettes d'agneau marinées, servies avec tzatziki"
+        },
+        {
+            "id": "plat-5",
+            "title": "Préparation du Saganaki",
+            "category": "plats",
+            "type": "video",
+            "src": "/chef-preparing-flaming-saganaki-cheese.jpg",
+            "thumbnail": "/saganaki-cheese-preparation.jpg",
+            "description": "Notre chef prépare le célèbre saganaki flambé"
+        },
+        {
+            "id": "equipe-1",
+            "title": "Chef Dimitri",
+            "category": "equipe",
+            "type": "image",
+            "src": "/professional-greek-chef-in-kitchen-uniform.jpg",
+            "description": "Notre chef exécutif, originaire de Thessalonique",
+            "featured": true
+        },
+        {
+            "id": "equipe-2",
+            "title": "Équipe de service",
+            "category": "equipe",
+            "type": "image",
+            "src": "/restaurant-service-team-in-elegant-uniforms.jpg",
+            "description": "Notre équipe dévouée pour votre service"
+        },
+        {
+            "id": "equipe-3",
+            "title": "En cuisine",
+            "category": "equipe",
+            "type": "image",
+            "src": "/kitchen-team-preparing-greek-dishes.jpg",
+            "description": "L'équipe culinaire en pleine préparation"
+        },
+        {
+            "id": "event-1",
+            "title": "Soirée Grecque",
+            "category": "evenements",
+            "type": "image",
+            "src": "/greek-cultural-evening-with-traditional-music.jpg",
+            "description": "Soirée culturelle avec musique traditionnelle"
+        },
+        {
+            "id": "event-2",
+            "title": "Dégustation Privée",
+            "category": "evenements",
+            "type": "image",
+            "src": "/private-wine-tasting-event-in-elegant-restaurant.jpg",
+            "description": "Événement privé de dégustation de vins grecs"
+        },
+        {
+            "id": "event-3",
+            "title": "Cours de Cuisine",
+            "category": "evenements",
+            "type": "video",
+            "src": "/cooking-class-with-greek-chef-teaching.jpg",
+            "thumbnail": "/cooking-class-preview.jpg",
+            "description": "Atelier culinaire avec notre chef"
+        }
+    ]
+}

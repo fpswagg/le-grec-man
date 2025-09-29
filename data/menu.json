@@ -1,0 +1,155 @@
+{
+  "categories": [
+    {
+      "id": "boissons-chaudes",
+      "name": "Boissons Chaudes",
+      "description": "Pour vous réchauffer",
+      "items": [
+        {
+          "id": "café-expresso",
+          "name": "Café Expresso",
+          "description": "Café italien, servi chaud",
+          "price": 600,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": [],
+          "popular": true
+        },
+        {
+          "id": "cappuccino",
+          "name": "Cappuccino",
+          "description": "Expresso, lait moussé, cacao",
+          "price": 800,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": ["lactose"]
+        },
+        {
+          "id": "thé-vert",
+          "name": "Thé Vert",
+          "description": "Thé vert nature ou à la menthe",
+          "price": 500,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": []
+        },
+        {
+          "id": "chocolat-chaud",
+          "name": "Chocolat Chaud",
+          "description": "Chocolat noir, lait, chantilly",
+          "price": 900,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": ["lactose"]
+        }
+      ]
+    },
+    {
+      "id": "boissons-fraiches",
+      "name": "Boissons Fraîches",
+      "description": "Pour vous rafraîchir",
+      "items": [
+        {
+          "id": "jus-orange",
+          "name": "Jus d'Orange Frais",
+          "description": "Pressé minute, 100% naturel",
+          "price": 800,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": [],
+          "popular": true
+        },
+        {
+          "id": "coca-cola",
+          "name": "Coca-Cola",
+          "description": "Canette 33cl, bien fraîche",
+          "price": 500,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": []
+        },
+        {
+          "id": "thé-glacé",
+          "name": "Thé Glacé Maison",
+          "description": "Thé noir infusé, citron, menthe fraîche",
+          "price": 700,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": [],
+          "popular": true
+        },
+        {
+          "id": "smoothie-mangue",
+          "name": "Smoothie Mangue",
+          "description": "Mangue fraîche, yaourt, miel",
+          "price": 1200,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": ["lactose"]
+        },
+        {
+          "id": "eau-minerale",
+          "name": "Eau Minérale",
+          "description": "Bouteille 50cl",
+          "price": 300,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "id": "snacks-rapides",
+      "name": "Snacks Rapides",
+      "description": "Pour accompagner vos boissons",
+      "items": [
+        {
+          "id": "sandwich-simple",
+          "name": "Sandwich Jambon-Fromage",
+          "description": "Pain frais, jambon, fromage, beurre",
+          "price": 1500,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": ["gluten", "lactose"]
+        },
+        {
+          "id": "croissant",
+          "name": "Croissant",
+          "description": "Croissant au beurre, frais du matin",
+          "price": 800,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": ["gluten", "lactose"]
+        },
+        {
+          "id": "chips",
+          "name": "Chips Nature",
+          "description": "Sachet de chips croustillantes",
+          "price": 400,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": []
+        },
+        {
+          "id": "biscuits",
+          "name": "Biscuits Assortis",
+          "description": "Sélection de biscuits sucrés",
+          "price": 600,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": ["gluten", "lactose"]
+        }
+      ]
+    },
+    {
+      "id": "plats-simples",
+      "name": "Plats Simples",
+      "description": "Quelques plats pour les petites faims",
+      "items": [
+        {
+          "id": "omelette-simple",
+          "name": "Omelette Nature",
+          "description": "Œufs frais, fines herbes",
+          "price": 1200,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": ["œufs"]
+        },
+        {
+          "id": "salade-verte",
+          "name": "Salade Verte",
+          "description": "Salade fraîche, vinaigrette maison",
+          "price": 1000,
+          "image": "/placeholder.svg?height=300&width=400",
+          "allergens": []
+        }
+      ]
+    }
+  ]
+}
