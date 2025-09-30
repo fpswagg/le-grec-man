@@ -42,6 +42,7 @@ export function Navigation() {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
+          {/* Dynamic */}
           <Link href="/" className="flex items-center space-x-2 group">
             <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
               <span className="text-primary-foreground font-serif font-bold text-lg">
@@ -83,7 +84,7 @@ export function Navigation() {
               className="cursor-pointer text-foreground/80 hover:text-primary"
             >
               <Phone className="w-4 h-4 mr-2" />
-              +237 6XX XXX XXX
+              {process.env.NEXT_PUBLIC_PHONE}
             </Button>
           </div>
 
@@ -97,6 +98,7 @@ export function Navigation() {
             <SheetContent side="right" className="w-80 bg-card border-border">
               <div className="flex flex-col h-full">
                 {/* Mobile Logo */}
+                {/* Dynamic */}
                 <div className="flex items-center space-x-2 pb-6 border-b border-border">
                   <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
                     <span className="text-primary-foreground font-serif font-bold">
@@ -142,7 +144,7 @@ export function Navigation() {
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     <Phone className="w-4 h-4 mr-2" />
-                    +237 6XX XXX XXX
+                    {process.env.NEXT_PUBLIC_PHONE}
                   </Button>
                 </div>
               </div>

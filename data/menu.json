@@ -1,153 +1,205 @@
 {
   "categories": [
     {
-      "id": "boissons-chaudes",
-      "name": "Boissons Chaudes",
-      "description": "Pour vous réchauffer",
+      "id": "bieres-spiritueux",
+      "name": "Bières & Spiritueux",
+      "description": "Sélection populaire des bars au Cameroun",
       "items": [
         {
-          "id": "café-expresso",
-          "name": "Café Expresso",
-          "description": "Café italien, servi chaud",
-          "price": 600,
-          "image": "/placeholder.svg?height=300&width=400",
+          "id": "33-export",
+          "name": "33 Export",
+          "description": "Bière blonde camerounaise, légère et rafraîchissante (65cl)",
+          "price": 750,
+          "image": "/placeholder.jpg",
           "allergens": [],
-          "popular": true
+          "popular": true,
+          "alcohol": true
         },
         {
-          "id": "cappuccino",
-          "name": "Cappuccino",
-          "description": "Expresso, lait moussé, cacao",
+          "id": "castel-beer",
+          "name": "Castel Beer",
+          "description": "Lager douce et équilibrée (65cl)",
           "price": 800,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": ["lactose"]
+          "image": "/placeholder.jpg",
+          "allergens": [],
+          "alcohol": true
         },
         {
-          "id": "thé-vert",
-          "name": "Thé Vert",
-          "description": "Thé vert nature ou à la menthe",
-          "price": 500,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": []
-        },
-        {
-          "id": "chocolat-chaud",
-          "name": "Chocolat Chaud",
-          "description": "Chocolat noir, lait, chantilly",
+          "id": "mutzig",
+          "name": "Mützig",
+          "description": "Bière premium au goût plus prononcé (65cl)",
           "price": 900,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": ["lactose"]
+          "image": "/placeholder.jpg",
+          "allergens": [],
+          "popular": true,
+          "alcohol": true
+        },
+        {
+          "id": "guinness-fes",
+          "name": "Guinness Foreign Extra",
+          "description": "Stout noire, intense et corsée (60cl)",
+          "price": 1200,
+          "image": "/placeholder.jpg",
+          "allergens": [
+            "sulfites"
+          ],
+          "alcohol": true
+        },
+        {
+          "id": "beaufort-lager",
+          "name": "Beaufort Lager",
+          "description": "Bière légère et désaltérante (50cl)",
+          "price": 700,
+          "image": "/placeholder.jpg",
+          "allergens": [],
+          "alcohol": true
+        },
+        {
+          "id": "smirnoff-ice",
+          "name": "Smirnoff Ice",
+          "description": "Boisson alcoolisée aromatisée citron",
+          "price": 1500,
+          "image": "/placeholder.jpg",
+          "allergens": [],
+          "alcohol": true
+        },
+        {
+          "id": "palm-wine",
+          "name": "Vin de Palme (Matango)",
+          "description": "Boisson traditionnelle légèrement sucrée, servie fraîche",
+          "price": 1000,
+          "image": "/placeholder.jpg",
+          "allergens": [],
+          "popular": true,
+          "alcohol": true
         }
       ]
     },
     {
-      "id": "boissons-fraiches",
-      "name": "Boissons Fraîches",
-      "description": "Pour vous rafraîchir",
+      "id": "cocktails-et-shots",
+      "name": "Cocktails & Shots",
+      "description": "Classiques de bar et incontournables locaux",
       "items": [
         {
-          "id": "jus-orange",
-          "name": "Jus d'Orange Frais",
-          "description": "Pressé minute, 100% naturel",
+          "id": "martini-bianco",
+          "name": "Martini Bianco",
+          "description": "Vermouth italien aromatisé, idéal en apéritif",
+          "price": 25000,
+          "image": "/placeholder.jpg",
+          "allergens": [
+            "sulfites"
+          ],
+          "alcohol": true
+        },
+        {
+          "id": "whisky-cola",
+          "name": "Whisky-Cola",
+          "description": "Mélange classique, servi sur glace",
+          "price": 2000,
+          "image": "/placeholder.jpg",
+          "allergens": [],
+          "alcohol": true
+        },
+        {
+          "id": "vodka-tonic",
+          "name": "Vodka Tonic",
+          "description": "Vodka, eau tonique, citron vert",
+          "price": 2000,
+          "image": "/placeholder.jpg",
+          "allergens": [],
+          "alcohol": true
+        }
+      ]
+    },
+    {
+      "id": "jus-et-sans-alcool",
+      "name": "Jus & Sans Alcool",
+      "description": "Rafraîchissements maison et boissons locales",
+      "items": [
+        {
+          "id": "folere",
+          "name": "Foléré (Bissap)",
+          "description": "Jus d’hibiscus rouge, sucré et acidulé",
           "price": 800,
-          "image": "/placeholder.svg?height=300&width=400",
+          "image": "/placeholder.jpg",
           "allergens": [],
           "popular": true
         },
         {
-          "id": "coca-cola",
-          "name": "Coca-Cola",
-          "description": "Canette 33cl, bien fraîche",
-          "price": 500,
-          "image": "/placeholder.svg?height=300&width=400",
+          "id": "gingembre",
+          "name": "Jus de Gingembre",
+          "description": "Boisson relevée au gingembre, citron, sucre",
+          "price": 800,
+          "image": "/placeholder.jpg",
           "allergens": []
         },
         {
-          "id": "thé-glacé",
-          "name": "Thé Glacé Maison",
-          "description": "Thé noir infusé, citron, menthe fraîche",
-          "price": 700,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": [],
-          "popular": true
+          "id": "baobab",
+          "name": "Jus de Baobab",
+          "description": "Boisson onctueuse, fruit du baobab",
+          "price": 900,
+          "image": "/placeholder.jpg",
+          "allergens": []
         },
         {
-          "id": "smoothie-mangue",
-          "name": "Smoothie Mangue",
-          "description": "Mangue fraîche, yaourt, miel",
-          "price": 1200,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": ["lactose"]
+          "id": "djinou",
+          "name": "D’jino / Top",
+          "description": "Sodas locaux, plusieurs parfums",
+          "price": 600,
+          "image": "/placeholder.jpg",
+          "allergens": []
         },
         {
           "id": "eau-minerale",
-          "name": "Eau Minérale",
-          "description": "Bouteille 50cl",
+          "name": "Eau Minérale 50cl",
+          "description": "Bouteille individuelle",
           "price": 300,
-          "image": "/placeholder.svg?height=300&width=400",
+          "image": "/placeholder.jpg",
           "allergens": []
         }
       ]
     },
     {
-      "id": "snacks-rapides",
-      "name": "Snacks Rapides",
-      "description": "Pour accompagner vos boissons",
+      "id": "grillades-et-snacks",
+      "name": "Grillades & Snacks",
+      "description": "Classiques des maquis et snacks camerounais",
       "items": [
         {
-          "id": "sandwich-simple",
-          "name": "Sandwich Jambon-Fromage",
-          "description": "Pain frais, jambon, fromage, beurre",
+          "id": "soya",
+          "name": "Soya (Brochettes)",
+          "description": "Brochettes de bœuf/chèvre épicées, sauce piment",
           "price": 1500,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "croissant",
-          "name": "Croissant",
-          "description": "Croissant au beurre, frais du matin",
-          "price": 800,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "chips",
-          "name": "Chips Nature",
-          "description": "Sachet de chips croustillantes",
-          "price": 400,
-          "image": "/placeholder.svg?height=300&width=400",
+          "image": "/placeholder.jpg",
           "allergens": []
         },
         {
-          "id": "biscuits",
-          "name": "Biscuits Assortis",
-          "description": "Sélection de biscuits sucrés",
-          "price": 600,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": ["gluten", "lactose"]
-        }
-      ]
-    },
-    {
-      "id": "plats-simples",
-      "name": "Plats Simples",
-      "description": "Quelques plats pour les petites faims",
-      "items": [
+          "id": "poisson-braise",
+          "name": "Poisson Braisé",
+          "description": "Poisson entier grillé, condiments et miondo",
+          "price": 4000,
+          "image": "/placeholder.jpg",
+          "allergens": [
+            "poisson"
+          ],
+          "popular": true
+        },
         {
-          "id": "omelette-simple",
-          "name": "Omelette Nature",
-          "description": "Œufs frais, fines herbes",
+          "id": "plantains-fris",
+          "name": "Plantains Frits (Dodo)",
+          "description": "Bananes plantains dorées, crousti-fondantes",
           "price": 1200,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": ["œufs"]
+          "image": "/placeholder.jpg",
+          "allergens": []
         },
         {
-          "id": "salade-verte",
-          "name": "Salade Verte",
-          "description": "Salade fraîche, vinaigrette maison",
-          "price": 1000,
-          "image": "/placeholder.svg?height=300&width=400",
-          "allergens": []
+          "id": "beignets-haricots",
+          "name": "Beignets & Haricots",
+          "description": "Beignets croustillants, haricots sautés",
+          "price": 1500,
+          "image": "/placeholder.jpg",
+          "allergens": [
+            "gluten"
+          ]
         }
       ]
     }

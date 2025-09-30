@@ -9,6 +9,7 @@ import {
   Twitter,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { closeStr, openStr } from "@/lib/times";
 
 export function Footer() {
   return (
@@ -17,6 +18,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
+            {/* Dynamic */}
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
                 <span className="text-primary-foreground font-serif font-bold text-lg">
@@ -31,8 +33,8 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Découvrez l'authenticité de la cuisine grecque dans un cadre
-              sophistiqué au cœur de Yaoundé.
+              Snack-bar lounge chaleureux, idéal pour se détendre et partager de
+              bons moments autour d’un verre.
             </p>
             <div className="flex space-x-3">
               <Button variant="ghost" size="sm" className="w-9 h-9 p-0">
@@ -80,20 +82,20 @@ export function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-muted-foreground">
-                  <p>Quartier Bastos</p>
+                  <p>Titi Garage</p>
                   <p>Yaoundé, Cameroun</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  +237 6XX XXX XXX
+                  {process.env.NEXT_PUBLIC_PHONE}
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  contact@legrecman.cm
+                  {process.env.NEXT_PUBLIC_EMAIL}
                 </span>
               </div>
             </div>
@@ -110,8 +112,7 @@ export function Footer() {
                 <div className="text-sm text-muted-foreground">
                   <p className="font-medium">Lun - Dim</p>
                   <p>
-                    {process.env.NEXT_PUBLIC_OPEN} -{" "}
-                    {process.env.NEXT_PUBLIC_CLOSE}
+                    {openStr} - {closeStr}
                   </p>
                 </div>
               </div>
