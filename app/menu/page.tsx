@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
@@ -55,6 +55,24 @@ export default function MenuPage() {
   const [filterBy, setFilterBy] = useState("all");
 
   const categories: MenuCategory[] = menuData.categories;
+
+  // Fix for Safari TabsContent visibility bug
+  // We force a re-render when selectedCategory changes to "all"
+  // to ensure TabsContent with value="all" is visible
+  const [safariTabsKey, setSafariTabsKey] = useState(0);
+  useEffect(() => {
+    // Only run on client
+    if (typeof window !== "undefined") {
+      // Detect Safari (not Chrome)
+      const isSafari = /^((?!chrome|android).)*safari/i.test(
+        navigator.userAgent
+      );
+      if (isSafari && selectedCategory === "all") {
+        // Force re-render of Tabs when switching to "all"
+        setSafariTabsKey((k) => k + 1);
+      }
+    }
+  }, [selectedCategory]);
 
   const filteredAndSortedItems = useMemo(() => {
     let allItems: (MenuItem & { categoryName: string })[] = [];
@@ -210,6 +228,7 @@ export default function MenuPage() {
       <section className="py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <Tabs
+            key={safariTabsKey} // This forces Tabs to re-render on Safari when switching to "all"
             value={selectedCategory === "all" ? "all" : selectedCategory}
             onValueChange={setSelectedCategory}
           >
@@ -233,7 +252,8 @@ export default function MenuPage() {
             </TabsList>
 
             {/* All Items View */}
-            <TabsContent value="all">
+            <TabsContent value="all" forceMount>
+              {/* forceMount ensures the content is always in the DOM, fixing Safari bug */}
               <StaggerContainer
                 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
                 staggerDelay={100}
