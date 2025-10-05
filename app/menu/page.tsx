@@ -214,7 +214,7 @@ export default function MenuPage() {
             onValueChange={setSelectedCategory}
           >
             {/* Category Tabs */}
-            <TabsList className="grid w-full grid-cols-2 lg:grid-cols-5 mb-12 bg-card border border-border">
+            <TabsList className="grid w-full grid-cols-2 lg:grid-cols-5 mb-12 bg-card border border-border h-auto">
               <TabsTrigger
                 value="all"
                 className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
