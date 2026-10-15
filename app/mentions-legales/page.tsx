@@ -1,3 +1,4 @@
+import { PHONE, ADDRESS, FACEBOOK_URL, FACEBOOK_LABEL } from "@/lib/business"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -32,15 +33,15 @@ export default function LegalPage() {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Adresse du siège social :</p>
-                  <p>Quartier Bastos, Yaoundé, Cameroun</p>
+                  <p>{ADDRESS}</p>
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Numéro de téléphone :</p>
-                  <p>+237 6XX XXX XXX</p>
+                  <p>{PHONE}</p>
                 </div>
                 <div>
-                  <p className="font-medium text-foreground">Adresse e-mail :</p>
-                  <p>contact@legrecman.cm</p>
+                  <p className="font-medium text-foreground">Facebook :</p>
+                  <p><a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">{FACEBOOK_LABEL}</a></p>
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Numéro d'immatriculation :</p>
@@ -97,7 +98,7 @@ export default function LegalPage() {
                 </p>
                 <p>
                   Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir
-                  le signaler par email, à l'adresse contact@legrecman.cm, en décrivant le problème de la façon la plus
+                  le signaler sur notre page Facebook ou au {PHONE}, en décrivant le problème de la façon la plus
                   précise possible.
                 </p>
               </CardContent>

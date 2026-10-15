@@ -1,5 +1,7 @@
 "use client";
 
+import { PHONE, ADDRESS, FACEBOOK_URL, FACEBOOK_LABEL } from "@/lib/business"
+
 import type React from "react";
 
 import { useState } from "react";
@@ -143,7 +145,7 @@ export default function ContactPage() {
                   Téléphone
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {process.env.NEXT_PUBLIC_PHONE}
+                  {PHONE}
                 </p>
               </CardContent>
             </Card>
@@ -154,10 +156,10 @@ export default function ContactPage() {
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-serif font-semibold text-foreground mb-2">
-                  Email
+                  Facebook
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {process.env.NEXT_PUBLIC_EMAIL}
+                  <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">{FACEBOOK_LABEL}</a>
                 </p>
               </CardContent>
             </Card>

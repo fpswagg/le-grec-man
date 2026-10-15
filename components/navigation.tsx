@@ -1,5 +1,7 @@
 "use client";
 
+import { PHONE, ADDRESS, FACEBOOK_URL, FACEBOOK_LABEL } from "@/lib/business"
+
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -84,7 +86,7 @@ export function Navigation() {
               className="cursor-pointer text-foreground/80 hover:text-primary"
             >
               <Phone className="w-4 h-4 mr-2" />
-              {process.env.NEXT_PUBLIC_PHONE}
+              {PHONE}
             </Button>
           </div>
 
@@ -144,7 +146,7 @@ export function Navigation() {
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     <Phone className="w-4 h-4 mr-2" />
-                    {process.env.NEXT_PUBLIC_PHONE}
+                    {PHONE}
                   </Button>
                 </div>
               </div>

@@ -1,4 +1,6 @@
 "use client";
+
+import { PHONE, ADDRESS, FACEBOOK_URL, FACEBOOK_LABEL } from "@/lib/business"
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -246,8 +248,8 @@ export default function HomePage() {
                 icon: Clock,
                 text: `Ouvert 7j/7 • ${openStr_}-${closeStr_}`,
               },
-              { icon: MapPin, text: "Titi garage, Yaoundé, Cameroun" },
-              { icon: Phone, text: process.env.NEXT_PUBLIC_PHONE },
+              { icon: MapPin, text: ADDRESS },
+              { icon: Phone, text: PHONE },
             ].map((item, index) => (
               <div
                 key={index}

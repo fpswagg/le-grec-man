@@ -1,3 +1,4 @@
+import { PHONE, ADDRESS, FACEBOOK_URL, FACEBOOK_LABEL } from "@/lib/business"
 import Link from "next/link";
 import {
   MapPin,
@@ -82,20 +83,20 @@ export function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-muted-foreground">
-                  <p>Titi Garage</p>
+                  <p>Titi Garage, face au Camp SIC</p>
                   <p>Yaoundé, Cameroun</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  {process.env.NEXT_PUBLIC_PHONE}
+                  {PHONE}
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  {process.env.NEXT_PUBLIC_EMAIL}
+                  <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">{FACEBOOK_LABEL}</a>
                 </span>
               </div>
             </div>

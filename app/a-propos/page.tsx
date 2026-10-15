@@ -118,7 +118,7 @@ export default function AboutPage() {
                 icon: MapPin,
                 title: "Ancrage Local",
                 description:
-                  "Fiers d'être un établissement de Bastos, au service de notre quartier et de ses habitants.",
+                  "Fiers d'être un établissement de Titi Garage, au service de notre quartier et de ses habitants.",
               },
               {
                 icon: Clock,

@@ -1,3 +1,4 @@
+import { PHONE, ADDRESS, FACEBOOK_URL, FACEBOOK_LABEL } from "@/lib/business"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -49,7 +50,7 @@ export default function TermsPage() {
                 <p>Les commandes peuvent être passées :</p>
                 <ul className="list-disc list-inside space-y-1 ml-4">
                   <li>Directement au restaurant</li>
-                  <li>Par téléphone au +237 6XX XXX XXX</li>
+                  <li>Par téléphone au {PHONE}</li>
                   <li>Via notre site internet</li>
                 </ul>
                 <p>
@@ -139,8 +140,8 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground">
                 <p>
-                  Toute réclamation doit être formulée dans les 24 heures suivant la prestation par email à
-                  contact@legrecman.cm ou par téléphone au +237 6XX XXX XXX.
+                  Toute réclamation doit être formulée dans les 24 heures suivant la prestation via
+                  notre page Facebook ou par téléphone au {PHONE}.
                 </p>
                 <p>
                   Nous nous engageons à traiter toute réclamation dans les meilleurs délais et à proposer une solution

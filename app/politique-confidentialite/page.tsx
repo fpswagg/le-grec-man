@@ -1,3 +1,4 @@
+import { PHONE, ADDRESS, FACEBOOK_URL, FACEBOOK_LABEL } from "@/lib/business"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -122,7 +123,7 @@ export default function PrivacyPage() {
                   <li>Droit à la portabilité</li>
                   <li>Droit d'opposition</li>
                 </ul>
-                <p>Pour exercer ces droits, contactez-nous à l'adresse : contact@legrecman.cm</p>
+                <p>Pour exercer ces droits, contactez-nous au {PHONE} ou sur notre page Facebook</p>
               </CardContent>
             </Card>
 
@@ -136,13 +137,13 @@ export default function PrivacyPage() {
                 </p>
                 <div className="space-y-2">
                   <p>
-                    <span className="font-medium text-foreground">Email :</span> contact@legrecman.cm
+                    <span className="font-medium text-foreground">Facebook :</span> <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">{FACEBOOK_LABEL}</a>
                   </p>
                   <p>
-                    <span className="font-medium text-foreground">Téléphone :</span> +237 6XX XXX XXX
+                    <span className="font-medium text-foreground">Téléphone :</span> {PHONE}
                   </p>
                   <p>
-                    <span className="font-medium text-foreground">Adresse :</span> Quartier Bastos, Yaoundé, Cameroun
+                    <span className="font-medium text-foreground">Adresse :</span> {ADDRESS}
                   </p>
                 </div>
               </CardContent>

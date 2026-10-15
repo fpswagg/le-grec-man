@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Le Grec Man - Restaurant Grec Premium | Yaoundé",
     description:
       "Découvrez l'excellence de la cuisine grecque authentique dans un cadre sophistiqué au cœur de Yaoundé.",
-    url: "https://legrecman.com",
+    url: "https://le-grec-man.vercel.app",
     siteName: "Le Grec Man",
     locale: "fr_FR",
     type: "website",
