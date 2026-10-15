@@ -18,11 +18,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Le Grec Man - Restaurant Grec Premium | Yaoundé",
+  title: "Le Grec Man - Restaurant, Lounge & Bar | Titi Garage, Yaoundé",
   description:
-    "Découvrez l'excellence de la cuisine grecque authentique dans un cadre sophistiqué au cœur de Yaoundé. Réservez votre table dès maintenant.",
+    "Restaurant, lounge et bar à Titi Garage, face au Camp SIC : cuisine camerounaise et internationale, grillades, terrasse verdoyante, sur place, à emporter ou en livraison.",
   keywords:
-    "restaurant grec, Yaoundé, cuisine méditerranéenne, réservation, livraison",
+    "restaurant, lounge, bar, Titi Garage, Yaoundé, grillades, livraison",
   authors: [{ name: "Le Grec Man" }],
   creator: "Le Grec Man",
   publisher: "Le Grec Man",
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Le Grec Man - Restaurant Grec Premium | Yaoundé",
+    title: "Le Grec Man - Restaurant, Lounge & Bar | Titi Garage, Yaoundé",
     description:
-      "Découvrez l'excellence de la cuisine grecque authentique dans un cadre sophistiqué au cœur de Yaoundé.",
+      "Restaurant, lounge et bar à Titi Garage, Yaoundé : cuisine camerounaise et internationale, grillades et terrasse.",
     url: "https://le-grec-man.vercel.app",
     siteName: "Le Grec Man",
     locale: "fr_FR",
@@ -42,9 +42,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Le Grec Man - Restaurant Grec Premium | Yaoundé",
+    title: "Le Grec Man - Restaurant, Lounge & Bar | Titi Garage, Yaoundé",
     description:
-      "Découvrez l'excellence de la cuisine grecque authentique dans un cadre sophistiqué au cœur de Yaoundé.",
+      "Restaurant, lounge et bar à Titi Garage, Yaoundé : cuisine camerounaise et internationale, grillades et terrasse.",
   },
   robots: {
     index: false,

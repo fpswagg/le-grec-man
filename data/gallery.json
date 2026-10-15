@@ -2,87 +2,78 @@
     "items": [
         {
             "id": "restaurant-1",
-            "title": "Salle principale",
+            "title": "Salle lounge",
             "category": "restaurant",
             "type": "image",
-            "src": "/elegant-greek-restaurant-interior-dark-warm-lighti.jpg",
-            "description": "Notre salle principale avec son ambiance chaleureuse et sophistiquée",
+            "src": "/modern-snack-bar-interior-dark-elegant-lighting.jpg",
+            "description": "Notre salle lounge, avec bar et écran TV pour les matchs",
             "featured": true
         },
         {
             "id": "restaurant-2",
-            "title": "Bar à ouzo",
+            "title": "Le bar",
             "category": "restaurant",
             "type": "image",
             "src": "/elegant-bar-with-greek-spirits-and-warm-lighting.jpg",
-            "description": "Notre bar spécialisé dans les spiritueux grecs authentiques"
+            "description": "Bières locales, vins, champagnes et whiskies"
         },
         {
             "id": "restaurant-3",
-            "title": "Terrasse privée",
+            "title": "Terrasse verdoyante",
             "category": "restaurant",
             "type": "image",
             "src": "/elegant-restaurant-terrace-with-mediterranean-deco.jpg",
-            "description": "Espace privé pour vos événements spéciaux"
+            "description": "Notre terrasse en plein air, au calme"
         },
         {
             "id": "restaurant-4",
-            "title": "Cuisine ouverte",
+            "title": "Face au Camp SIC",
             "category": "restaurant",
             "type": "image",
-            "src": "/professional-greek-kitchen-with-chef-cooking.jpg",
-            "description": "Notre cuisine ouverte où naît la magie culinaire"
+            "src": "/modern-snack-bar-exterior-in-yaound-.jpg",
+            "description": "Le Grec Man à Titi Garage, Yaoundé"
         },
         {
             "id": "plat-1",
-            "title": "Moussaka Traditionnelle",
+            "title": "Grillades",
             "category": "plats",
             "type": "image",
-            "src": "/moussaka-traditional-greek-dish-golden-brown.jpg",
-            "description": "Notre moussaka signature, préparée selon la recette familiale",
+            "src": "/modern-snack-bar-kitchen-with-chef-preparing-food.jpg",
+            "description": "Poulet, poisson et porc braisés à la demande",
             "featured": true
         },
         {
             "id": "plat-2",
-            "title": "Mezze Complet",
+            "title": "Riz sauté au poulet",
             "category": "plats",
             "type": "image",
-            "src": "/greek-mezze-platter-colorful-appetizers.jpg",
-            "description": "Assortiment de nos meilleures spécialités grecques",
+            "src": "/riz-saut--poulet-l-gumes.jpg",
+            "description": "Riz sauté, poulet et légumes croquants",
             "featured": true
         },
         {
             "id": "plat-3",
-            "title": "Baklava Maison",
+            "title": "Burger & frites",
             "category": "plats",
             "type": "image",
-            "src": "/baklava-greek-dessert-honey-nuts-phyllo.jpg",
-            "description": "Dessert traditionnel aux noix et miel de thym"
+            "src": "/burger-classique-avec-frites.jpg",
+            "description": "Le classique du snack, servi avec des frites"
         },
         {
             "id": "plat-4",
-            "title": "Souvlaki d'Agneau",
+            "title": "Brownie glace vanille",
             "category": "plats",
             "type": "image",
-            "src": "/greek-lamb-souvlaki-with-tzatziki-and-pita.jpg",
-            "description": "Brochettes d'agneau marinées, servies avec tzatziki"
-        },
-        {
-            "id": "plat-5",
-            "title": "Préparation du Saganaki",
-            "category": "plats",
-            "type": "video",
-            "src": "/chef-preparing-flaming-saganaki-cheese.jpg",
-            "thumbnail": "/saganaki-cheese-preparation.jpg",
-            "description": "Notre chef prépare le célèbre saganaki flambé"
+            "src": "/brownie-chocolat-glace-vanille.jpg",
+            "description": "Pour finir en douceur"
         },
         {
             "id": "equipe-1",
-            "title": "Chef Dimitri",
+            "title": "En cuisine",
             "category": "equipe",
             "type": "image",
-            "src": "/professional-greek-chef-in-kitchen-uniform.jpg",
-            "description": "Notre chef exécutif, originaire de Thessalonique",
+            "src": "/professional-chef-in-modern-kitchen.jpg",
+            "description": "Ndolè, poulet DG, pizzas et grillades préparés sur place",
             "featured": true
         },
         {
@@ -91,40 +82,31 @@
             "category": "equipe",
             "type": "image",
             "src": "/restaurant-service-team-in-elegant-uniforms.jpg",
-            "description": "Notre équipe dévouée pour votre service"
+            "description": "Notre équipe, sur place ou en livraison"
         },
         {
             "id": "equipe-3",
-            "title": "En cuisine",
+            "title": "Accueil",
             "category": "equipe",
             "type": "image",
-            "src": "/kitchen-team-preparing-greek-dishes.jpg",
-            "description": "L'équipe culinaire en pleine préparation"
+            "src": "/professional-restaurant-manager-smiling.jpg",
+            "description": "Toujours un accueil chaleureux"
         },
         {
             "id": "event-1",
-            "title": "Soirée Grecque",
-            "category": "evenements",
-            "type": "image",
-            "src": "/greek-cultural-evening-with-traditional-music.jpg",
-            "description": "Soirée culturelle avec musique traditionnelle"
-        },
-        {
-            "id": "event-2",
-            "title": "Dégustation Privée",
+            "title": "Soirées à thème",
             "category": "evenements",
             "type": "image",
             "src": "/private-wine-tasting-event-in-elegant-restaurant.jpg",
-            "description": "Événement privé de dégustation de vins grecs"
+            "description": "Karaoké et soirées à thème au lounge"
         },
         {
-            "id": "event-3",
-            "title": "Cours de Cuisine",
+            "id": "event-2",
+            "title": "Vos événements",
             "category": "evenements",
-            "type": "video",
-            "src": "/cooking-class-with-greek-chef-teaching.jpg",
-            "thumbnail": "/cooking-class-preview.jpg",
-            "description": "Atelier culinaire avec notre chef"
+            "type": "image",
+            "src": "/young-chef-preparing-fresh-food.jpg",
+            "description": "Anniversaires et événements privés sur réservation"
         }
     ]
 }

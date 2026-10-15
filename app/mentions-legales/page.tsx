@@ -29,7 +29,7 @@ export default function LegalPage() {
               <CardContent className="space-y-4 text-muted-foreground">
                 <div>
                   <p className="font-medium text-foreground">Raison sociale :</p>
-                  <p>Le Grec Man SARL</p>
+                  <p>Restaurant I Lounge &amp; Bar à tabac « LE GREC MAN »</p>
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Adresse du siège social :</p>
@@ -42,14 +42,6 @@ export default function LegalPage() {
                 <div>
                   <p className="font-medium text-foreground">Facebook :</p>
                   <p><a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">{FACEBOOK_LABEL}</a></p>
-                </div>
-                <div>
-                  <p className="font-medium text-foreground">Numéro d'immatriculation :</p>
-                  <p>RC/YAO/2024/B/XXXX</p>
-                </div>
-                <div>
-                  <p className="font-medium text-foreground">Directeur de la publication :</p>
-                  <p>Dimitri Papadopoulos</p>
                 </div>
               </CardContent>
             </Card>
