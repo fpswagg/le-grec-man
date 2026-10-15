@@ -47,11 +47,11 @@ export const metadata: Metadata = {
       "Découvrez l'excellence de la cuisine grecque authentique dans un cadre sophistiqué au cœur de Yaoundé.",
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
     googleBot: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
